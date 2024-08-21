@@ -1,3 +1,3 @@
-# My Game is Cool!
+# To learn javascript, is to raise a baby alligator - Michaeal Jackson, 1872
 
-Make sure you give it a good description here...
+I must create the cat orb
