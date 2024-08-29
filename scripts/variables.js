@@ -17,3 +17,6 @@ let favIcecream = [
     "mintChocalateChip"
 ];
 console.log("My favorite icecream is", favIcecream);
+let burger= true;
+ let cheese=false; 
+  console.log ("cheese"|| "burger");
