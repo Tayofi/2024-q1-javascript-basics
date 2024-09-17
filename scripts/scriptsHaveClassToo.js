@@ -15,4 +15,9 @@ cheesePuffs.brand = "cheesePuffBrand";
 cheesePuffs.age = 0.2;
 
 let cheetoes = new CheesyDibbles("cheetoes");
+
 cheetoes.age = 3000;
+
+eat(cheetoes);
+eat(cheesePuffs);
+
