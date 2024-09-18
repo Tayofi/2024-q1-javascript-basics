@@ -19,20 +19,19 @@
 		</style>
 	</head>
 	<body>
-		<canvas id="bideo-game">
-			<script>
-				const canvas = document.getElementById("bideo-game");
+		<canvas id="bideo-game"></canvas>
+		<script>
+			const canvas = document.getElementById("bideo-game");
 
-				function resize() {
-					canvas.width = window.innerWidth;
-					canvas.height = window.innerHeight;
-					console.log(canvas.width, canvas.height);
-				}
-				resize();
+			function resize() {
+				canvas.width = window.innerWidth;
+				canvas.height = window.innerHeight;
+				console.log(canvas.width, canvas.height);
+			}
+			resize();
 
-				window.addEventListener("resize", resize);
-			</script>
-			<script type="module" src="scripts/canvas-basics/app.js"></script>
-		</canvas>
+			window.addEventListener("resize", resize);
+		</script>
+		<script type="module" src="scripts/canvas-basics/app.js"></script>
 	</body>
 </html>
