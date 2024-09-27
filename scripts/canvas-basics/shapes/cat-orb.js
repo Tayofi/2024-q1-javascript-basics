@@ -1,6 +1,16 @@
 //@ts-check
-
-export class Squaare {
+// Create a new image element 
+const img = document.createElement('img'); 
+ 
+// Set the source and other attributes 
+img.src = 'downloads/cat orb wow.gif'; // Specify the path to your image 
+img.alt = 'rotatingCatOrb'; // Alt text for accessibility 
+img.width = 300; // Optional: set width 
+img.height = 200; // Optional: set height 
+ 
+// Append the image to a specific element in the document 
+document.body.appendChild(img); // This will add the image to the body 
+export class catOrb {
     constructor(x, y, ctx, canvas) {
         canvas=document.getElementById("bideo-game")
         ctx = canvas.getContext("2d")
@@ -47,6 +57,6 @@ this.dirY=1;
     };
     draw (){
         this.ctx.fillStyle = `hsla(${this.hue}, 100%, 78%, 100%`
-        this.ctx.fillRect(this.x, this.y,this.width,this.height);   
+        this.ctx.draw(img);   
     };
 }
